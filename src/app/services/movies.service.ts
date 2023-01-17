@@ -16,7 +16,7 @@ import { GenresDto } from '../models/genre';
 })
 export class MoviesService {
   baseUrl: string = 'https://api.themoviedb.org/3';
-  apiKey: string = 'b5de87975a23fa239677401305f21eca';
+  apiKey: string = '';
 
   constructor(private http: HttpClient) {}
 
